@@ -1,0 +1,9 @@
+@if(themeService.themeSignal() == 'light') {
+    <button (click)="toggleTheme()" class="button-icon">
+        <i class="bi bi-brightness-high-fill"></i>
+    </button>
+} @else {
+    <button (click)="toggleTheme()" class="button-icon">
+        <i class="bi bi-moon-stars-fill"></i>
+    </button>
+}
